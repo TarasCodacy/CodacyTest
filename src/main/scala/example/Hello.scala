@@ -2,7 +2,7 @@ package example
 
 object Hello extends Greeting with App {
 
-  println("Taras")
+  println(doGreet("Taras1"))
 
   def doGreet(name: String): String = {
     name match {
