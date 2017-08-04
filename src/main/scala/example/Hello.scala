@@ -12,6 +12,7 @@ object Hello extends Greeting with App {
   def doGreet(name: String): String = {
     name match {
       case "Taras" => s"Hello $name"
+      case "Taras2" => s"Hello2 $name"
       case "User" => s"Ciao $name"
     }
   }
