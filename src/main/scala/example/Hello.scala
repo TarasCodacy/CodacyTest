@@ -4,6 +4,11 @@ object Hello extends Greeting with App {
 
   println(doGreet("Taras1"))
 
+  var a: Boolean = _
+  if (a) {
+    println("Holy!")
+  }
+
   def doGreet(name: String): String = {
     name match {
       case "Taras" => s"Hello $name"
